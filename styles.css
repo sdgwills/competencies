@@ -1,0 +1,73 @@
+body {
+  background-color: gainsboro;
+}
+
+.header {
+  background-color: grey;
+  width: 100vw;
+  height: 10vh;
+  margin: 10px;
+  padding: 50px, 50px, 50px, 50px;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 1000px 10%;
+  border: dashed 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* box-sizing: border-box; */
+}
+
+.navbar {
+  width: 60vw;
+  display: flex;``
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.main-text {
+  font-size: 10rem;
+  text-shadow: 5px 5px 10px grey;
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(22, 103, 209), rgb(187, 14, 240));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.right-float {
+  float: right;
+  height: 10vh;
+  width: 10vw;
+  background-image: url('https://d1w9csuen3k837.cloudfront.net/Pictures/1280x720/5/5/6/136556_Blue-sky-with-light-cirrus-clouds-HERO.jpg');
+  position: relative;
+}
+
+#absolute-positioning {
+  position: fixed;
+  height: 10vh;
+  width: 10vw;
+  background-color: yellowgreen;
+}
+
+.bottom-foot {
+  height: 30vh;
+  width: 200vw;
+  background-color: fuchsia;
+}
